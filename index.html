@@ -114,27 +114,59 @@
         </div>
 </section>
 
-
+<section>
+    <style>
+        .front, .back, .container {
+            width: 250px;
+            height: 350px;
+        }
+        .front, .back {
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .front {
+            z-index: 2;
+            transition: all 0.3s linear;
+        }
+        .back {
+            transition: all 0.3s linear;
+            transform: rotateY(180deg);
+        }
+        .container {
+            position: relative;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+        }
+        .container:hover .front {
+            transform: rotateY(180deg);
+        }
+        .container:hover .back {
+            transform: rotateY(360deg);
+        }
+        </style>
+     <head>
+        <body>
+</head>
+<body>
 <h1>APRENDIZAJE PERSONALIZADO</h1>
-<style> table,th,td {border: 0.50px solid black;} </style>
-<table>
-    <tr>
-        <td> <h3>Nivel Preescolar</h3>
-           <td> <img src="./assets/img/240_F_41065223_4E65nwV7uzJOR4PAI6xdvwGJIz3mfuua.jpg" width="340" height="200"> </td> 
-        </td>
-    </tr>
-</table>
-
-<table>
-<tr>
-    <td><h3>Nivel de Basica</h3></td>
-    <td><img src="./assets/img/kids-classroom-primary-school-children-desks-lesson_102902-345.webp" width="300" height="200"></td>
-
-</tr>
-</table>
-</body>
-</html>
-
+        
+     <tr>
+         <td><h3>Nivel Preescolar</h3></td>
+         <div class="container">
+             <img class="front" src="./assets/img/240_F_41065223_4E65nwV7uzJOR4PAI6xdvwGJIz3mfuua.jpg">
+            </div>
+     </tr>
+ 
+ <tr>
+     <td><h3>Nivel de Basica</h3></td>
+     <div class="container">
+             <img class="front" src="./assets/img/kids-classroom-primary-school-children-desks-lesson_102902-345.webp">
+             <p><img class="izquierda"></p>
+            </div>
+        </tr>
+    </section>
 
 <section>       
     <header>Caracteristicas</header><strong></strong>
