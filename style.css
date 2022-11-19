@@ -1,0 +1,13 @@
+.banner{
+    background-image: url(./assets/img/queso\ fondo\ 2.png);
+    background-size:contain;
+    background-repeat: no-repeat; 
+}
+
+#texto-baner{
+    left: 90px;
+    font-family: "Indie Flower", cursive;
+    position:relative;
+    top: 200px;
+    
+}
