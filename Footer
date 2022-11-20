@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en" class="h-100" data-lt-installed="true">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
                     <div>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br>
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br></div>        
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br></div>
     </footer>
 </body>
 </html> 
