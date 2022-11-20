@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-</html>
+<html lang="en" class="h-100" data-lt-installed="true">
 <head>
-<body>
-<footer>
-    <h2>Nuestros Aliados</h2>
-   <div> <img src="./assets/img/KODIGO_LOGO-FINAL-AF_Mesa-de-trabajo-1-1024x324.png" width="250" height="75"> </div>
-    <p><img src="/assets/img/glasswing.jpg" width=""></p>
-    <p><img src="/assets/img/Impact Hub.png"></p>
-</footer>
-</body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pie de pagina</title>
 </head>
+    <footer>
+        <p class="text-center"><h3>Contactenos</h3></p>
+        <p class="text-center"><h3>Redes Sociales</h3></p>
+        <img src="./assets/img/redes completas.jpg" width="250" height="100">
+
+        <p class="text-center"><h3>Post Recientes</h3> </p>
+                    <div>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br>
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br></div>        
+    </footer>
+</body>
+</html> 
+</body>
 </html>
