@@ -168,25 +168,8 @@ input[type=checkbox]{
 }
 
 /*FOOTER*/
-
-    min-height: 100%;
-    position: relative;
-}
-
-body {
-    margin: 0;
-}
-
-.wrapper {
-    margin: 0;
-    margin-bottom: 40px;
-}
-
-footer {
-    background-color: rgb(122, 184, 206);
-    position: absolute;
-    bottom: 0;
-    width: 500%;
-    height: 40px;
-    color: white;
+.contactos{
+        background-color: rgb(160, 205, 221);
+        bottom: 0;
+        color: white;
 }
