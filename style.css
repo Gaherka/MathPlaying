@@ -12,30 +12,12 @@
     list-style: none;
    }
 
-
-/*PARTE BANNER*/
-
-.banner{
-    background-image: url(./assets/img/queso\ fondo\ 2.png);
-    background-size:contain;
-    background-repeat: no-repeat; 
-}
-
-#texto-baner{
-    left: 90px;
-    font-family: "Indie Flower", cursive;
-    position:relative;
-    top: 200px;
-    
-}
-
 /* NAVBAR STYLING STARTS */
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #36f;
     color: #fff;
    }
    .nav-links a {
@@ -44,12 +26,15 @@
    /* LOGO */
    .logo {
     font-size: 32px;
+    color: #fc00ff;
    }
    /* NAVBAR MENU */
    .menu {
     display: flex;
     gap: 1em;
     font-size: 18px;
+    color: #fc00ff; 
+   
    }
    .menu li:hover {
     background-color: #36f;
@@ -131,6 +116,26 @@ input[type=checkbox]{
     background-color: #36f;
    }
    }
+/*PARTE BANNER*/
+
+    
+.banner{
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    
+}
+
+
+#texto-baner{
+    left: 90px;
+    font-family: "Indie Flower", cursive;
+    position:relative;
+    top: 200px;
+    
+}
+
+
 /*PARTE CARD APRENDIZAJE*/
 .front, .back {
     width: 250px;
