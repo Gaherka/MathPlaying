@@ -137,38 +137,14 @@ input[type=checkbox]{
 
 
 /*PARTE CARD APRENDIZAJE*/
-.front, .back {
+.front {
     width: 250px;
     height: 350px;
-}
-#cards{
-    width: 250px;
-    height: 350px;
+    z-index: 2;
 }
 
-.front, .back {
-    backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.front {
-    z-index: 2;
-    transition: all 0.3s linear;
-}
-.back {
-    transition: all 0.3s linear;
-    transform: rotateY(180deg);
-}
-#cards {
-    position: relative;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-}
-#cards:hover .front {
-    transform: rotateY(180deg);
-}
-#cards:hover .back {
+.card:hover {
+    transition: all 0.5s linear;
     transform: rotateY(360deg);
 }
 
