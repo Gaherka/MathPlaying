@@ -4,72 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./Style.css">
     <title>Document</title>
 </head>
-</body>
-    <head>
 <body>
-    <style>
-        .front, .back, .container {
-            width: 250px;
-            height: 350px;
-        }
-        .front, .back {
-            backface-visibility: hidden;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        .front {
-            z-index: 2;
-            transition: all 0.3s linear;
-        }
-        .back {
-            transition: all 0.3s linear;
-            transform: rotateY(180deg);
-        }
-        .container {
-            position: relative;
-            transform-style: preserve-3d;
-            perspective: 1000px;
-        }
-        .container:hover .front {
-            transform: rotateY(180deg);
-        }
-        .container:hover .back {
-            transform: rotateY(360deg);
-        }
-        </style>
-     <head>
-        <body>
-</head>
-<body>
-<h1>APRENDIZAJE PERSONALIZADO</h1>
-        
-     <tr>
-         <td><h3>Nivel Preescolar</h3></td>
-         <div class="container">
-             <img class="front" src="./assets/img/240_F_41065223_4E65nwV7uzJOR4PAI6xdvwGJIz3mfuua.jpg">
+    <h1>APRENDIZAJE PERSONALIZADO</h1>
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-md-7">
+                <div class="card" style="width: 18rem;">
+                    <img class="front" src="./assets/img/240_F_41065223_4E65nwV7uzJOR4PAI6xdvwGJIz3mfuua.jpg">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+
+                  
             </div>
-     </tr>
- 
- <tr>
-     <td><h3>Nivel de Basica</h3></td>
-     <div class="container">
-             <img class="front" src="./assets/img/kids-classroom-primary-school-children-desks-lesson_102902-345.webp">
-             <p><img class="izquierda"></p>
+            <div class="col-md-5">
+                  
+                <div class="card" style="width: 18rem;">
+                    <img class="front" src="./assets/img/kids-classroom-primary-school-children-desks-lesson_102902-345.webp">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+            
+            
             </div>
-        </tr>
-    </head>
-    </body>
-        
- <head>
- <body>    
-<footer>
-    <h2>Nuestros Aliados</h2>
-   <div> <img src="./assets/img/KODIGO_LOGO-FINAL-AF_Mesa-de-trabajo-1-1024x324.png" width="250" height="75"> </div>
-    <p><img src="/assets/img/glasswing.jpg" width=""></p>
-    <p><img src="/assets/img/Impact Hub.png"></p>
-</footer>
+    </div>
+
 </body>
 </html>
