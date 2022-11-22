@@ -33,7 +33,7 @@
     display: flex;
     gap: 1em;
     font-size: 18px;
-    color: #fc00ff; 
+    background-color: #fc00ff; 
    
    }
    .menu li:hover {
