@@ -27,12 +27,16 @@
    .logo {
     font-size: 32px;
     color: #ffffff;
+    font-family: "Fredoka One", cursive;
    }
    /* NAVBAR MENU */
    .menu {
+    text-align: end;
+    bottom: 0px;
     display: flex;
     gap: 1em;
-    font-size: 18px;
+    font-size: 22px;
+    font-family: "Neucha", cursive;
     
    
    }
@@ -125,19 +129,21 @@ input[type=checkbox]{
 .banner{
     background-size:contain;
     background-repeat: no-repeat;
-    font-family: "Concert One", sans-serif;
+  
     
 }
 
 #texto-baner{
     left: 90px;
-    font-family: "Indie Flower", cursive;
+    font-family: "Fredoka One", cursive;
     position:relative;
-    top: 200px;
+    top: 100px;
+    color: white;
+    font-size: 50px;
     
 }
 .carousel-inner{
-transform: rotate(20deg);
+transform: rotate(0deg);
 }
 
 
