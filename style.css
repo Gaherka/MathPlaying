@@ -157,7 +157,12 @@ input[type=checkbox]{
 transform: rotate(20deg);
 }
 
-
+/**MISION VISION VALORES*/
+.MVV{
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    font-family: "Neucha", cursive;
+    
+}
 
 /*PARTE CARD APRENDIZAJE*/
 .front {
@@ -171,9 +176,36 @@ transform: rotate(20deg);
     transform: rotateY(360deg);
 }
 
+
+
+/*CARACTERISTICAS*/
+.secCaracteristicas{
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+.caracTitulo{
+    text-align: center;
+}
+#carateristica1{
+    margin-left: 50px;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    position: absolute;
+}
+#carateristica2{
+    margin-right: 50px;
+    height: 100px;
+    width: 100px;
+    right:  100px;
+    position: absolute;
+}
+#caracteristicasTexto{
+    font-size: 20px;
+}
 /*FOOTER*/
 .contactos{
         background-color: rgb(160, 205, 221);
         bottom: 0;
         color: white;
 }
+
