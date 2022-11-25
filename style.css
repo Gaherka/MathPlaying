@@ -180,7 +180,7 @@ transform: rotate(20deg);
 
 /*CARACTERISTICAS*/
 .secCaracteristicas{
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: linear-gradient(to right, #40f03a 0%, #28bffa 100%);
 }
 .caracTitulo{
     text-align: center;
