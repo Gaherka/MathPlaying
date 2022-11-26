@@ -180,32 +180,20 @@ transform: rotate(20deg);
 
 /*CARACTERISTICAS*/
 .secCaracteristicas{
-    background-image: url("./assets/img/humoFondo.jpg");
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-repeat: no-repeat;
+    align-items: center;
 
 }
 .caracTitulo{
     text-align: center;
+    align-items: center;
+
 }
-#carateristica1{
-    margin-left: 50px;
-    height: 100px;
-    width: 100px;
-    left: 100px;
-    position: absolute;
-}
-#carateristica2{
-    margin-right: 50px;
-    height: 100px;
-    width: 100px;
-    right:  100px;
-    position: absolute;
-}
-#caracteristicasTexto{
-    font-size: 20px;
+
+#imgcaracteristicas{
+    align-items: center;
+    position: relative;
+    left: 140px;
 }
 /*FOOTER*/
 .contactos{
