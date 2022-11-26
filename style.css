@@ -176,7 +176,17 @@ transform: rotate(20deg);
     transform: rotateY(360deg);
 }
 
+/*FUNDADORES*/
+.h1{
+    text-align: center;
+    color: #fc00ff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.secFundadores{
+    background-image: url(./assets/img/fondo2.jpg)
+
+}
 
 /*CARACTERISTICAS*/
 .secCaracteristicas{
@@ -190,10 +200,11 @@ transform: rotate(20deg);
 
 }
 
-#imgcaracteristicas{
+#imgcaracteristicas :hover{
     align-items: center;
     position: relative;
     left: 140px;
+    
 }
 /*FOOTER*/
 .contactos{
