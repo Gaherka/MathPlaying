@@ -140,8 +140,6 @@ input[type=checkbox]{
 .banner{
     background-size:contain;
     background-repeat: no-repeat;
-  
-    
 }
 
 #texto-baner{
@@ -175,24 +173,11 @@ transform: rotate(20deg);
     transition: all 0.6s linear;
     transform: rotateY(360deg);
 }
-
-/*FUNDADORES*/
-.h1{
-    text-align: center;
-    color: #fc00ff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.secFundadores{
-    background-image: url(./assets/img/fondo2.jpg)
-
-}
-
 /*CARACTERISTICAS*/
 .secCaracteristicas{
     width: 100%;
     align-items: center;
-
+    text-align: center;
 }
 .caracTitulo{
     text-align: center;
@@ -206,10 +191,34 @@ transform: rotate(20deg);
     left: 140px;
     
 }
+/*FUNDADORES*/
+.fundadores{
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+.h1{
+    text-align: center;
+    color: #fc00ff;
+    font-family: "Fredoka One", cursive;
+}
+
+.secFundadores{
+    background-image: url(./assets/img/fondo2.jpg)
+
+}
+
+
 /*FOOTER*/
 .contactos{
-        background-color: rgb(160, 205, 221);
-        bottom: 0;
-        color: white;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+}
+.titleContactos{
+    font-family: "Fredoka One", cursive; 
+    color: fuchsia,  rgb(212, 72, 212), rgb(224, 149, 224) ;
 }
 
