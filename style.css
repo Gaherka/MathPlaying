@@ -158,9 +158,18 @@ transform: rotate(20deg);
 /**MISION VISION VALORES*/
 
 .MVV{
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
     font-family: "Neucha", cursive;
-    
+    text-align: center;
+    align-items: center;
+}
+
+.card1{
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to top, #f8db4c 0%, #2bd9f8  100%);
+    transition: 2s;
+    text-align: center;
+    align-items: center;
 }
 
 /*PARTE CARD APRENDIZAJE*/
