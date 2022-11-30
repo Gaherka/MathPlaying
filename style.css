@@ -285,3 +285,15 @@ transform: rotate(20deg);
 #celda{
     padding: 20px;
 }
+
+@media (max-width:576px){
+    #texto-baner{
+       font-size: 20px; 
+       position: relative;
+       top: -25px;
+       left: -20px;
+    }
+    #imgBanner{
+        width: 100px;
+    }
+}
