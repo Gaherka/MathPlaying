@@ -240,8 +240,7 @@ transform: rotate(20deg);
 #imgcaracteristicas :hover{
     align-items: center;
     position: relative;
-    left: 140px;
-    
+    left: 100px;
 }
 /*FUNDADORES*/
 .fundadores{
@@ -274,4 +273,15 @@ transform: rotate(20deg);
     font-family: "Neucha", cursive;
     color: fuchsia,  rgb(212, 72, 212), rgb(224, 149, 224) ;
 }
+.redes{
+    margin:50px auto;
+    align-items: center;
+    text-align: center;
+    border: 1px none;
+    text-decoration: none;
+    
+}
 
+#celda{
+    padding: 20px;
+}
