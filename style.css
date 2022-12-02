@@ -342,8 +342,8 @@ transform: rotate(20deg);
 .contactos{
     text-align: center;
     align-items: center;
-    margin: 10px;
-    padding: 50px;
+    margin: 0px;
+    padding: 0px;
     background-image: linear-gradient(to top, #f1ca07 0%, #50d8f0  100%);
 }
 .titleContactos{
