@@ -173,9 +173,7 @@ transform: rotate(20deg);
 }
 
 
-/*  Directrices estrategicas Damaris */
-/*  Directrices estrategicas Damaris */
-/*  Directrices estrategicas Damaris */
+/*  Directrices estrategicas  */
 
 .container-card{
 	width: 100%;
@@ -247,9 +245,8 @@ transform: rotate(20deg);
 		margin: 15px;
 	}
 }
-/*  Directrices estrategicas Damaris  */
-/*  Directrices estrategicas Damaris  */
-/*  Directrices estrategicas Damaris  */
+
+/*  Directrices estrategicas  */
 
 /*PARTE CARD APRENDIZAJE*/
 /*PARTE CARD APRENDIZAJE*/
@@ -354,12 +351,11 @@ transform: rotate(20deg);
     color: fuchsia,  rgb(212, 72, 212), rgb(224, 149, 224) ;
 }
 .redes{
-    margin:50px auto;
-    align-items: center;
+    margin:40px auto;
+    display: flex;
     text-align: center;
     border: 1px none;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 #celda{
