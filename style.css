@@ -163,16 +163,6 @@ transform: rotate(20deg);
     align-items: center;
 }
 
-.card1{
-    margin: 10px;
-    padding: 10px;
-    background-image: linear-gradient(to top, #f8db4c 0%, #2bd9f8  100%);
-    transition: 2s;
-    text-align: center;
-    align-items: center;
-}
-
-
 /*  Directrices estrategicas  */
 
 .container-card{
@@ -249,11 +239,11 @@ transform: rotate(20deg);
 /*  Directrices estrategicas  */
 
 /*PARTE CARD APRENDIZAJE*/
-/*PARTE CARD APRENDIZAJE*/
 
 .princip{
    text-align: center;
    margin-top: 50px;
+   align-items: center;
    font-family: "Neucha", cursive;
 }
 
@@ -299,6 +289,11 @@ transform: rotate(20deg);
     background-color: #f1ec58;
     color: rgb(0, 0, 0);
     transform: rotateY(180deg);
+    text-align: center;
+    align-items: center;
+    font-family: "Neucha", cursive;
+    padding: 50px;
+    margin: 10px;
   }
 /*PARTE CARD APRENDIZAJE*/
 
@@ -371,5 +366,9 @@ transform: rotate(20deg);
     }
     #imgBanner{
         width: 100px;
+    }
+    .video{
+        height: 80%;
+        width: 90%;
     }
 }
