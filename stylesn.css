@@ -1,0 +1,380 @@
+
+/*GENERAL*/
+
+Header{
+        
+    position: relative;
+    padding:100% auto;
+    width:auto;
+    height: 575px;    
+    display: flex;
+    background-image: radial-gradient(circle at 28.54% 60.01%, #c6fdfb 0, #b5f2f2 50%, #a3e7e9 100%);
+    margin: 0;
+}
+
+    
+/*BANNER*/    
+.banner{
+    transition:5s;
+}
+
+.banner:hover{
+    transform: translateX(5%);
+}
+
+#nube1{
+    position: absolute;
+    transition:5s;
+    top: 15px;
+    height: 110px;
+    width: 80%;
+    left: 130px;
+    z-index: 2;
+}
+#nube1:hover{
+    transform:translateX(-5%);
+}
+#nube2{
+    position:absolute;
+    right: 0px;  
+    z-index: 2;
+}
+#nube3{
+    position:absolute;
+    right: 35%;  
+    z-index: 1;
+    height: 100px;
+    top: 70px;
+}
+#nube4{
+    position:absolute;
+    right: 45%;  
+    height: 110px;
+    top: 25px;
+}
+
+#cesped1{
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    z-index: 1;
+}
+#hogar{
+    position: absolute;
+    width: 280px; 
+    height: 280px;
+    right: 540px;
+    bottom: 15px;
+    z-index: 2;
+}
+#arboles{
+    position: absolute;
+    height: 450px;
+    width: 90%;
+    right: 80px;
+    bottom: 0;
+    z-index: 2;
+}
+#ratones{
+    position: absolute;
+    bottom: 20px;
+    height: 60px;
+    width: 80%;
+    z-index: 3;
+    left: 180px;
+}
+#cesped2{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    z-index: 4;
+    height: 50px;
+    width: 100%;
+}
+#gato{
+    position: absolute;
+    bottom: 20px;
+    height: 120px;
+    right: 450px;
+    z-index: 3;
+}
+/*MODAL*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+.Desarrolladoras{
+    font-family:'Rubik Distressed', cursive; ;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.fotos{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.integrantes{
+    background-image: linear-gradient(355deg, #ffff31 0, #ffff2c 8.33%, #ffff2e 16.67%, 
+    #faff36 25%, #d6ff40 33.33%, #b0ff4a 41.67%, #89f253 50%, #60e35b 58.33%, #2cd563 66.67%,
+    #00c96c 75%, #00ad6b 83.33%, #01b43d 91.67%, #01b43d 100%);
+    padding: 0;
+    margin: 0;
+}
+.h2{
+
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+.card{
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.imagen-content{
+    position: relative;
+    row-gap: 5px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.overlay{
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+background-color: rgb(108, 108, 224);
+border-radius: 25px 25px 0 25px;
+}
+
+.imagen-content,
+.card-content{
+padding:10px 14px ;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.card-imagen{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.card-imagen .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgb(250, 250, 250);
+    text-align: center;
+}
+
+/*PARTE INFORMACION INDIVIDUAL*/
+.tabla{
+    padding: 30px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    border: 1px none;
+    text-decoration: none;
+}
+td{
+    padding: 10px;
+}
+
+/*DAMARIS*/
+#imgdamaris{
+    width:200px;
+}
+#damarisc{
+    color: rgb(101, 58, 141);
+    text-align: center;
+    font-family: "Secular One", sans-serif;
+    text-decoration:wavy;
+}
+#subtitulosD{
+    color:rgb(101, 58, 141);
+    font-family:"Secular One", sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+#dam{
+    color:rgb(101, 58, 141);
+    font-family:"Secular One", sans-serif;
+}
+/*FIORELLA*/
+#imgfiorella{
+    width:200px;
+}
+#fiorellaA{
+    font-family: "BhuTuka Expanded One";
+    text-decoration:wavy;
+    color:rgb(128, 12, 12);
+}
+#subtitulosF{
+    color:rgb(134, 11, 11);
+    font-family:"BhuTuka Expanded One", sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+#fio{
+    color: rgb(194, 63, 63);
+    font-family: "BhuTuka Expanded One";
+}
+
+/*KARLA*/
+#imgkarla{
+    width:200px;
+}
+#Karla{
+    text-align: center;
+    margin: 0%;
+    color:  #DD6E42;   
+    font-family: "Barlow Condensed", sans-serif;
+}
+#subtitulosK{
+    color: #FA9F42; 
+    font-family:"Barlow Condensed", sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+#kar{
+    color: #BA2926; 
+    font-family: "BhuTuka Expanded One"; 
+}
+/*DANIELA*/
+#imgdaniela{
+    width:200px;
+    height: 200px;
+}
+#Daniela{
+    text-align: center;
+    margin: 0%;
+    color: rgb(19, 6, 133);        
+}
+#subtitulosDa{
+    color:rgb(46, 33, 160); 
+    font-family:"Barlow Condensed", sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+#dan{
+    color: rgb(89, 80, 163); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*SARAI*/
+#imgsarai{
+    width:200px;
+    height: 200px;
+}
+
+#subtitulosS{
+    color:rgb(122, 5, 93); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+#saraiV{
+    color: rgb(151, 12, 116);  
+    text-align: center;
+    text-decoration:wavy;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#sa{
+    color: rgb(92, 71, 86);  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.modal-content{
+    background-color: #fbfdf3;
+}
+
+@media (max-width:576px){
+    #nube1{
+        position: absolute;
+        transition:5s;
+        top: 15px;
+        height: 40px;
+        width:80%;
+        left: 35px;
+        z-index: 2;
+    }
+  
+    #nube2{
+        position:absolute;
+        right: 0px;  
+        top: 5px;
+        z-index: 2;
+        width: 100%;
+    }
+    #nube3{
+        position:absolute;
+        right: 120px;
+        z-index: 1;
+        height: 30px;
+        top: 20px;
+    }
+    #nube4{
+        position:absolute;
+        right: 170px;
+        z-index: 1;
+        height: 30px;
+        top: 10px;
+        
+    }
+   
+    #cesped1{
+        position: absolute;
+        bottom: 5px;
+        right: 0px;
+        z-index: 1;
+  
+    }
+    #hogar{
+        position: absolute;
+        width: 150px; 
+        height: 150px;
+        right: 100px;
+        bottom: 15px;
+        z-index: 2;
+    }
+    #arboles{
+        position: absolute;
+        height: 450px;
+        width: 100%;
+        right: 0px;
+        bottom: 0;
+        z-index: 2;
+    }
+    #ratones{
+        position: absolute;
+        bottom: 20px;
+        height: 50px;
+        width: 90%;
+        z-index: 3;
+        left: 18px;
+    }
+    #cesped2{
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        z-index: 4;
+        height: 50px;
+        width: 100%;
+    }
+    #gato{
+        position: absolute;
+        bottom: 25px;
+        height: 70px;
+        width: 40px;
+        right: 100px;
+        z-index: 3;
+    }
+}
